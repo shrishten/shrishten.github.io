@@ -1,0 +1,79 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: #A7B7FF;
+	color: #FFFFFF;
+	font-family: 'Belgrano', sans-serif;	font-size: 70%;
+}
+
+.logo {
+	margin: 25px 150px;
+}
+
+.el1, .el2 {
+	margin-top: 25px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #7E95FF;
+}
+
+/* selected link */
+a:active {
+    color: #7E95FF;
+}
+
+.des {
+	align-self: center;
+	text-align: center;
+	font-size: 400%
+}
+
+.dd {
+	margin-top: 10px;
+	align-self: center;
+	text-align: center;
+	font-size: 150%
+}
+
+
+.description .col{
+	margin: 80px auto 0 auto;
+}
+
+.btn {
+	background-color: #679DDD;
+	border-radius: 300px;
+	transition: all .1s;
+}
+
+.btn:hover {
+	border-width: 2px;
+	background-color: #2768B5;
+}
+
+.button .col{
+	margin: 30px auto 0 auto;
+}
+
+.card {
+	margin-top: 60px;
+	color: black;
+}
+.card{
+	padding: 5px;
+}
